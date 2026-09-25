@@ -33,7 +33,7 @@ By the end of the course, students can:
 
 | # | Date | Topic |
 |---|---|---|
-| S1 | Fri Sep 25 | **Orientation.** Why the course changed; the skills map; Python on DataHub; Git/GitHub. Live demo: an agent builds a small analysis and the class dissects the transcript (what did it assume? where could it be wrong?). |
+| [S1](lectures/Lecture%201%20-%20Orientation.ipynb) | Fri Sep 25 | **Orientation.** Why the course changed; the skills map; Python on DataHub; Git/GitHub. Live demo: an agent builds a small analysis and the class dissects the transcript (what did it assume? where could it be wrong?). |
 | S2 | Mon Sep 28 | **Python essentials I.** Types, control flow, functions, core containers (list/dict/set/tuple). |
 | S3 | Wed Sep 30 | **Python essentials II — reading & debugging.** Exceptions and tracebacks, comprehensions, modules/imports, scripts vs. notebooks; regular expressions as something you *verify* rather than write. |
 | S4 | Fri Oct 2 | **NumPy.** Arrays, vectorization, broadcasting; first look at cost: the same computation as a Python loop vs. vectorized. |
@@ -115,7 +115,9 @@ Use of AI assistants and coding agents is permitted in the project and quizzes, 
 
 ## Lectures
 
-Lecture notebooks are published to [`lectures/`](lectures) as they are delivered.
+Lecture notebooks are published to [`lectures/`](lectures) as they are delivered,
+and linked from the session number in the schedule above.
+
 They are Jupyter notebooks; run them on [DataHub](https://datahub.ucsd.edu) —
 nothing to install. Datasets used in the lectures are in [`data/`](data).
 
