@@ -3,18 +3,12 @@
 **Fall 2026 · UC San Diego**
 
 **Instructor:** Duncan Watson-Parris · **TA:** TBD
-**Format:** MWF, Fri Sep 25 – Fri Dec 4, 2026 (29 meetings); final exam in finals week.
-Lectures with live coding-agent demos and in-class polls; a laptop is useful but not
-required in class.
-**Prerequisites:** none assumed; graduate standing
-
-> Canvas is the syllabus of record — grading, deadlines and policies live there.
-> This page is the course outline and the home for the lecture notebooks.
-> Schedule subject to change.
 
 ## Course description
 
-Programming for data science in the age of coding agents. Most working code is now produced by steering AI agents from loosely defined requirements — business, research, or product — rather than by hand-writing library calls. What remains scarce is the judgment around the code: turning ambiguous requirements into precise specifications, choosing data structures, algorithms, and architectures with the right trade-offs, validating that generated code and its outputs are actually correct, and knowing when a project is *done*. This course teaches Python and the PyData ecosystem at the fluency level needed to **read, verify, and steer**; teaches algorithms and data structures as the vocabulary for predicting the consequences of an agent's implementation choices; and covers the durable engineering skills identified in Andrew Ng's AI Engineering Skills Map: using coding agents, software engineering fundamentals, and shaping the build.
+Programming for data science in the age of coding agents. Most working code is now produced by steering AI agents from loosely defined requirements (whether business, research, or product) rather than by hand-writing library calls. What remains valuable is the judgment around the code: turning ambiguous requirements into precise specifications, choosing data structures, algorithms, and architectures with the right trade-offs, validating that generated code and its outputs are actually correct, and knowing when a project is *done*. 
+
+This course teaches Python and the PyData ecosystem at the fluency level needed to **read, verify, and steer**; teaches algorithms and data structures as the vocabulary for predicting the consequences of an agent's implementation choices; and covers the durable engineering skills needed in todays world: using coding agents, software engineering fundamentals, and shaping the build.
 
 ## Learning outcomes
 
