@@ -34,7 +34,7 @@ By the end of the course, students can:
 | # | Date | Topic | Notes |
 |---|---|---|---|
 | [S1](lectures/Lecture%201%20-%20Orientation.ipynb) | Fri Sep 25 | **Orientation.** Why the course changed; the skills map; Python on DataHub; Git/GitHub. Live demo: an agent builds a small analysis and the class dissects the transcript (what did it assume? where could it be wrong?). |  |
-| S2 | Mon Sep 28 | **Python essentials I.** Types, control flow, functions, core containers (list/dict/set/tuple). |  |
+| [S2](lectures/Lecture%202%20-%20Python%20essentials%20I.ipynb) | Mon Sep 28 | **Python essentials I.** Types, control flow, functions, core containers (list/dict/set/tuple). |  |
 | S3 | Wed Sep 30 | **Python essentials II — reading & debugging.** Exceptions and tracebacks, comprehensions, modules/imports, scripts vs. notebooks; regular expressions as something you *verify* rather than write. | Remote (Zoom link on Canvas) |
 | S4 | Fri Oct 2 | **NumPy.** Arrays, vectorization, broadcasting; first look at cost: the same computation as a Python loop vs. vectorized. | Remote (Zoom link on Canvas) |
 | S5 | Mon Oct 5 | **Pandas I.** Series/DataFrame, indexes and alignment, selection. | Remote (Zoom link on Canvas) |
