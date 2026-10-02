@@ -35,8 +35,8 @@ By the end of the course, students can:
 |---|---|---|---|
 | [S1](lectures/Lecture%201%20-%20Orientation.ipynb) | Fri Sep 25 | **Orientation.** Why the course changed; the skills map; Python on DataHub; Git/GitHub. Live demo: an agent builds a small analysis and the class dissects the transcript (what did it assume? where could it be wrong?). |  |
 | [S2](lectures/Lecture%202%20-%20Python%20essentials%20I.ipynb) | Mon Sep 28 | **Python essentials I.** Types, control flow, functions, core containers (list/dict/set/tuple). |  |
-| [S3](lectures/Lecture%203%20-%20Python%20essentials%20II.ipynb) | Wed Sep 30 | **Python essentials II — reading & debugging.** Functions, comprehensions, exceptions and tracebacks, modules/imports, scripts vs. notebooks. | Remote (Zoom link on Canvas) |
-| S4 | Fri Oct 2 | **Regular expressions and NumPy.** Regular expressions as something you *verify* rather than write; arrays, vectorization, broadcasting; first look at cost: the same computation as a Python loop vs. vectorized. | Remote (Zoom link on Canvas) |
+| [S3](lectures/Lecture%203%20-%20Python%20essentials%20II.ipynb) | Wed Sep 30 | **Python essentials II — reading & debugging.** Functions, comprehensions, exceptions and tracebacks, modules/imports. | Remote (Zoom link on Canvas) |
+| [S4](lectures/Lecture%204%20-%20NumPy.ipynb) | Fri Oct 2 | **Regular expressions and NumPy.** Scripts vs. notebooks; regular expressions as something you *verify* rather than write; arrays, vectorization, broadcasting; first look at cost: the same computation as a Python loop vs. vectorized. | Remote (Zoom link on Canvas) |
 | S5 | Mon Oct 5 | **Pandas I.** Series/DataFrame, indexes and alignment, selection. | Remote (Zoom link on Canvas) |
 | S6 | Wed Oct 7 | **Pandas II.** Group-by, merge/join, reshape, tidy data; silent failure modes (misalignment, NaN propagation, dtype/timezone traps, chained assignment). |  |
 | S7 | Fri Oct 9 | **xarray & matplotlib.** Labeled multi-dimensional data; figure anatomy. |  |
