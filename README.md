@@ -47,7 +47,7 @@ By the end of the course, students can:
 
 | # | Date | Topic | Notes |
 |---|---|---|---|
-| S8–S9 | Mon Oct 12 | **LLM foundations & anatomy of a harness.** Tokenization, context windows, sampling, knowledge cutoffs, tool/function calling, and their behavioral consequences (hallucinated APIs, context placement, caching and cost). The agentic loop: model + system prompt + tools + permissions + context management, and why the harness is as much of the product as the model. A real session traced from prompt to diff. | Remote (Zoom link on Canvas) |
+| [S8–S9](lectures/Lecture%208%20-%20LLMs%20and%20agent%20harnesses.ipynb) | Mon Oct 12 | **LLM foundations & anatomy of a harness.** Tokenization, context windows, sampling, knowledge cutoffs, tool/function calling, and their behavioral consequences (hallucinated APIs, context placement, caching and cost). The agentic loop: model + system prompt + tools + permissions + context management, and why the harness is as much of the product as the model. A real session traced from prompt to diff. | Remote (Zoom link on Canvas) |
 | S10 | Wed Oct 14 | **The agentic workflow.** Requirements → spec → plan → implement → verify. Case study: the same task run from a vague and a precise spec. Introduces the spec template for project M1. | Remote (Zoom link on Canvas) |
 | — | Fri Oct 16 | *No class.* | **Cancelled** |
 | S11 | Mon Oct 19 | **Context management & evaluation-driven development.** What goes into context and what stays out; when to start fresh; giving the agent verifiers (tests, evals, type checks) so it can close loops. Case study: the same task with and without a test suite. |  |
