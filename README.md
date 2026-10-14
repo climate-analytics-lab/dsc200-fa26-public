@@ -39,7 +39,7 @@ By the end of the course, students can:
 | [S4](lectures/Lecture%204%20-%20NumPy.ipynb) | Fri Oct 2 | **Regular expressions and NumPy.** Scripts vs. notebooks; regular expressions as something you *verify* rather than write; arrays, dtypes, indexing and Boolean masks, operating along an axis. | Remote (Zoom link on Canvas) |
 | [S5](lectures/Lecture%205%20-%20pandas%20I.ipynb) | Mon Oct 5 | **Pandas I.** Broadcasting and a first look at cost (a Python loop vs. vectorized); Series/DataFrame, indexes and alignment, selection. | Remote (Zoom link on Canvas) |
 | [S6](lectures/Lecture%206%20-%20pandas%20II.ipynb) | Wed Oct 7 | **Pandas II.** The course project. Summary statistics, group-by, cleaning, merge/join; silent failure modes (misalignment, duplicate keys, dtype traps, chained assignment). |  |
-| S7 | Fri Oct 9 | **xarray & matplotlib.** Labeled multi-dimensional data; figure anatomy. |  |
+| [S7](lectures/Lecture%207%20-%20matplotlib%20and%20xarray.ipynb) | Fri Oct 9 | **xarray & matplotlib.** Labeled multi-dimensional data; figure anatomy. |  |
 
 ### Module B — Using coding agents (S8–S13, Weeks 3–4)
 
@@ -48,7 +48,7 @@ By the end of the course, students can:
 | # | Date | Topic | Notes |
 |---|---|---|---|
 | [S8–S9](lectures/Lecture%208%20-%20LLMs%20and%20agent%20harnesses.ipynb) | Mon Oct 12 | **LLM foundations & anatomy of a harness.** Tokenization, context windows, sampling, knowledge cutoffs, tool/function calling, and their behavioral consequences (hallucinated APIs, context placement, caching and cost). The agentic loop: model + system prompt + tools + permissions + context management, and why the harness is as much of the product as the model. A real session traced from prompt to diff. | Remote (Zoom link on Canvas) |
-| S10 | Wed Oct 14 | **The agentic workflow.** Requirements → spec → plan → implement → verify. Case study: the same task run from a vague and a precise spec. Introduces the spec template for project M1. | Remote (Zoom link on Canvas) |
+| [S10](lectures/Lecture%209%20-%20The%20agentic%20workflow.ipynb) | Wed Oct 14 | **The agentic workflow.** Requirements → spec → plan → implement → verify. Case study: the same task run from a vague and a precise spec. Introduces the spec template for project M2. | Remote (Zoom link on Canvas) |
 | — | Fri Oct 16 | *No class.* | **Cancelled** |
 | S11 | Mon Oct 19 | **Context management & evaluation-driven development.** What goes into context and what stays out; when to start fresh; giving the agent verifiers (tests, evals, type checks) so it can close loops. Case study: the same task with and without a test suite. |  |
 | S12 | Wed Oct 21 | **Security.** Sandboxing and permission models; secrets hygiene; prompt injection via untrusted files and data (live demo). |  |
