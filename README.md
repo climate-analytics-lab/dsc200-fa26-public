@@ -51,7 +51,7 @@ By the end of the course, students can:
 | [S10](lectures/Lecture%209%20-%20The%20agentic%20workflow.ipynb) | Wed Oct 14 | **The agentic workflow.** Requirements → spec → plan → implement → verify. Case study: the same task run from a vague and a precise spec. Introduces the spec template for project M2. | Remote (Zoom link on Canvas) |
 | — | Fri Oct 16 | *No class.* | **Cancelled** |
 | [S11](lectures/Lecture%2010%20-%20Context%20and%20verification.ipynb) | Mon Oct 19 | **Context management & evaluation-driven development.** What goes into context and what stays out; when to start fresh; giving the agent verifiers (tests, evals, type checks) so it can close loops. Case study: the same task with and without a test suite. |  |
-| S12 | Wed Oct 21 | **Security.** Sandboxing and permission models; secrets hygiene; prompt injection via untrusted files and data (live demo). |  |
+| [S12](lectures/Lecture%2011%20-%20Verification%20and%20security.ipynb) | Wed Oct 21 | **Security.** Sandboxing and permission models; secrets hygiene; prompt injection via untrusted files and data (live demo). |  |
 | S13 | Fri Oct 23 | **Cost, data constraints & reproducibility.** Token/cost and latency budgets; sensitive and licensed data; reproducibility of agent-assisted work; logs and audit trails. |  |
 
 **S14 — Midterm exam, Mon Oct 26** (in class, closed-AI; Modules A–B).
