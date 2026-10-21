@@ -121,4 +121,54 @@ and linked from the session number in the schedule above.
 They are Jupyter notebooks; run them on [DataHub](https://datahub.ucsd.edu) —
 nothing to install. Datasets used in the lectures are in [`data/`](data).
 
+### Running the local model without a Mac
+
+Lectures 8–11 run a small open-weights model on my laptop with
+[`mlx-lm`](https://github.com/ml-explore/mlx-lm), which only works on Apple-silicon
+Macs. You don't need to run these cells to follow the lectures. But if you'd like to
+try the model yourself on Windows, Linux, or DataHub, use Hugging Face
+[`transformers`](https://huggingface.co/docs/transformers) instead. The tokenizer,
+the chat template, and the tool-calling format are all the same; only the `load` and
+`generate` calls differ.
+
+```python
+# pip install transformers torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+# A small Qwen model. 1.7B is a good default; 0.6B is lighter and faster on a CPU.
+# (The lectures use Qwen3-4B-Instruct-2507, which is the same family but needs more
+#  memory; if you can run it, drop the enable_thinking argument below.)
+MODEL = "Qwen/Qwen3-1.7B"
+tokenizer = AutoTokenizer.from_pretrained(MODEL)
+model = AutoModelForCausalLM.from_pretrained(MODEL, torch_dtype="auto")
+
+
+def ask(question, max_new_tokens=100):
+    inputs = tokenizer.apply_chat_template(
+        [{"role": "user", "content": question}],
+        add_generation_prompt=True,
+        enable_thinking=False,       # these small models "think" out loud by default
+        return_tensors="pt",
+        return_dict=True,
+    )
+    output = model.generate(**inputs, max_new_tokens=max_new_tokens, do_sample=False)
+    reply = output[0, inputs["input_ids"].shape[1]:]   # just the new tokens
+    return tokenizer.decode(reply, skip_special_tokens=True)
+
+
+# Tokenization works exactly as in the lecture:
+ids = tokenizer.encode("strawberry")
+print(len(ids), "tokens:", " | ".join(tokenizer.decode([i]) for i in ids))
+
+print(ask("What is the capital of France? One word."))
+```
+
+This is much slower than on a GPU, so stick to small models and short prompts, and
+expect more mistakes than the lecture's 4B model. Tool calling works the same way:
+pass `tools=[your_function]` to `apply_chat_template`, and parse the `<tool_call>`
+block out of the reply, exactly as the lecture's `agent` loop does.
+
+Another option is [Ollama](https://ollama.com), which installs separately and runs
+the model as a local service (e.g. `ollama run qwen3:1.7b`).
+
 License: CC-BY-4.0
