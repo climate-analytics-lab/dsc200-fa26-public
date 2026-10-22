@@ -52,7 +52,7 @@ By the end of the course, students can:
 | — | Fri Oct 16 | *No class.* | **Cancelled** |
 | [S11](lectures/Lecture%2010%20-%20Context%20and%20verification.ipynb) | Mon Oct 19 | **Context management & evaluation-driven development.** What goes into context and what stays out; when to start fresh; giving the agent verifiers (tests, evals, type checks) so it can close loops. Case study: the same task with and without a test suite. |  |
 | [S12](lectures/Lecture%2011%20-%20Verification%20and%20security.ipynb) | Wed Oct 21 | **Security.** Sandboxing and permission models; secrets hygiene; prompt injection via untrusted files and data (live demo). |  |
-| S13 | Fri Oct 23 | **Cost, data constraints & reproducibility.** Token/cost and latency budgets; sensitive and licensed data; reproducibility of agent-assisted work; logs and audit trails. |  |
+| [S13](lectures/Lecture%2012%20-%20Personalizing%20the%20tools.ipynb) | Fri Oct 23 | **Cost, data constraints & reproducibility.** Token/cost and latency budgets; sensitive and licensed data; reproducibility of agent-assisted work; logs and audit trails. |  |
 
 **S14 — Midterm exam, Mon Oct 26** (in class, closed-AI; Modules A–B).
 
@@ -65,8 +65,8 @@ By the end of the course, students can:
 | S15 | Wed Oct 28 | **Complexity & empirical scaling.** Order of growth, Big-O vs. Θ, best/worst/average case; space complexity (memory is often the binding constraint in data science); amortized cost; constant factors (interpreted loops vs. vectorized C). Measuring scaling empirically (time and peak memory across *n*, log–log slope). Performance budgets as acceptance criteria. Coda: the complexity of the agent itself — cumulative token cost over a session. |  |
 | S16 | Fri Oct 30 | **Arrays, linked lists & hash tables.** Contiguous vs. linked storage; dynamic arrays and amortized append (why `np.append`/`pd.concat` in a loop is quadratic); hash tables — dict/set membership, hashability, and the hashing behind pandas indexes, group-by, and joins; many-to-many join blow-up. |  |
 | S17 | Mon Nov 2 | **Stacks, queues & recursion.** LIFO/FIFO abstract data types and their applications; the call stack and reading tracebacks; recursion depth limits and iterative rewrites; `deque` vs. `list.pop(0)`. |  |
-| S18 | Wed Nov 4 | **Binary search trees & kd-trees.** BST property, search cost ∝ height, traversals, insertion and removal (traced by hand); degeneracy on sorted input and why balanced trees and B-tree indexes exist; binary search on sorted arrays as the array analogue; kd-trees for spatial nearest-neighbour search. | Remote (Zoom link on Canvas) |
-| S19 | Fri Nov 6 | **Heaps & sorting.** Heap property and array representation; priority queues and top-*k*; sorting algorithms compared (time, extra memory, stability); what Python/NumPy/pandas actually use; stability and reproducibility; out-of-core merge. | Remote (Zoom link on Canvas) |
+| S18 | Wed Nov 4 | **Binary search trees & kd-trees.** BST property, search cost ∝ height, traversals, insertion and removal (traced by hand); degeneracy on sorted input and why balanced trees and B-tree indexes exist; binary search on sorted arrays as the array analogue; kd-trees for spatial nearest-neighbour search. |  |
+| S19 | Fri Nov 6 | **Heaps & sorting.** Heap property and array representation; priority queues and top-*k*; sorting algorithms compared (time, extra memory, stability); what Python/NumPy/pandas actually use; stability and reproducibility; out-of-core merge. |  |
 | S20 | Mon Nov 9 | **Graphs & DAGs.** Adjacency matrix vs. list (and sparse storage); DFS/BFS in O(\|V\|+\|E\|); shortest paths; DAGs and topological sort as the basis of pipelines and task schedulers; dependency resolution; recognizing when an "optimal" answer to an intractable problem is really a heuristic. |  |
 | — | Wed Nov 11 | *Veterans Day — no class.* |  |
 
