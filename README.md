@@ -121,6 +121,8 @@ and linked from the session number in the schedule above.
 They are Jupyter notebooks; run them on [DataHub](https://datahub.ucsd.edu) —
 nothing to install. Datasets used in the lectures are in [`data/`](data).
 
+For extra practice between classes, see [`practice/`](practice): a self-check notebook of NumPy, pandas, matplotlib and xarray exercises, a guide to getting hands-on with a coding agent, and a map of the skills the course builds.
+
 ### Running the local model without a Mac
 
 Lectures 8–11 run a small open-weights model on my laptop with
