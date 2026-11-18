@@ -70,7 +70,7 @@ By the end of the course, students can:
 | [S20](lectures/Lecture%2018%20-%20Graphs%20and%20DAGs.ipynb) | Mon Nov 9 | **Graphs & DAGs.** Adjacency matrix vs. list (and sparse storage); DFS/BFS in O(\|V\|+\|E\|); shortest paths; DAGs and topological sort as the basis of pipelines and task schedulers; dependency resolution; recognizing when an "optimal" answer to an intractable problem is really a heuristic. |  |
 | — | Wed Nov 11 | *Veterans Day — no class.* |  |
 
-### Module D — Software engineering fundamentals (S21–S24, Weeks 7–8)
+### Module D — Software engineering fundamentals (S21–S23, Weeks 7–8)
 
 *Architecture, code structure, and testing.*
 
@@ -78,16 +78,16 @@ By the end of the course, students can:
 |---|---|---|---|
 | [S21](lectures/Lecture%2019%20-%20Architecture%20and%20data%20stores.ipynb) | Fri Nov 13 | **Architecture & data stores.** Pipelines and layered designs; file formats and stores (CSV/Parquet/NetCDF/Zarr/databases); cost–scalability–reliability–speed trade-offs, stage by stage. Case study: the same climate calculation as a one-off analysis, a nightly pipeline, and a shared package. |  |
 | [S22](lectures/Lecture%2020%20-%20Structuring%20code.ipynb) | Mon Nov 16 | **Structuring code.** Notebook → script → module → package; interfaces and contracts; functions vs. classes; OOP where it earns its keep; the central trade-off of flexibility vs. structure. Case study: one prototype under diverging change requests, where both over- and under-structured designs pay. |  |
-| [S23](lectures/Lecture%2021%20-%20Testing%20and%20code%20review.ipynb) | Wed Nov 18 | **Testing I.** What to test when you didn't write the code: pytest, property-based testing, regression/golden tests, scaling tests. |  |
-| S24 | Fri Nov 20 | **Testing II & code review.** Schema and statistical validation of data outputs; CI on GitHub; reviewing an agent-authored pull request. |  |
+| [S23](lectures/Lecture%2021%20-%20Testing%20and%20code%20review.ipynb) | Wed Nov 18 | **Testing and code review.** What to test when you didn't write the code: pytest, property-based testing and fuzzing, golden tests, scaling tests; validating the data; reviewing an agent-authored pull request and its tests; CI on GitHub. |  |
 
-### Module E — Shaping the build and project presentations (S25–S29, Weeks 9–10)
+### Module E — Shaping the build and project presentations (S24–S29, Weeks 8–10)
 
 *From loose requirements to "done".*
 
 | # | Date | Topic | Notes |
 |---|---|---|---|
-| S25 | Mon Nov 23 | **Shaping the build.** Turning stakeholder language into buildable scope (the business-analyst skill); synthesizing user signals into fast product decisions; iterating when prototypes take a day; speed–cost–risk–human-effort trade-offs; definition of done. |  |
+| S24 | Fri Nov 20 | **Shaping the build.** The software development lifecycle, from waterfall to agile, and how every test traces back to the spec; user stories and acceptance criteria; turning a vague request into buildable scope; prototyping and the speed–cost–risk–human-effort trade-offs; maintenance, open-source projects, and when to let a project die. |  |
+| S25 | Mon Nov 23 | **Course review and quiz.** A look back across Modules C–E, then a short (about 20-minute) closed-AI quiz. |  |
 | S26 | Wed Nov 25 | **Project clinic.** No new content; teams work with instructor and TA on M2 feedback. |  |
 | — | Thu–Fri Nov 26–27 | *Thanksgiving — no class.* |  |
 | S27 | Mon Nov 30 | **Project presentations** (≈6 teams). |  |
