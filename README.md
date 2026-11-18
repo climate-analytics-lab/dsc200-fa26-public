@@ -78,7 +78,7 @@ By the end of the course, students can:
 |---|---|---|---|
 | [S21](lectures/Lecture%2019%20-%20Architecture%20and%20data%20stores.ipynb) | Fri Nov 13 | **Architecture & data stores.** Pipelines and layered designs; file formats and stores (CSV/Parquet/NetCDF/Zarr/databases); cost–scalability–reliability–speed trade-offs, stage by stage. Case study: the same climate calculation as a one-off analysis, a nightly pipeline, and a shared package. |  |
 | [S22](lectures/Lecture%2020%20-%20Structuring%20code.ipynb) | Mon Nov 16 | **Structuring code.** Notebook → script → module → package; interfaces and contracts; functions vs. classes; OOP where it earns its keep; the central trade-off of flexibility vs. structure. Case study: one prototype under diverging change requests, where both over- and under-structured designs pay. |  |
-| S23 | Wed Nov 18 | **Testing I.** What to test when you didn't write the code: pytest, property-based testing, regression/golden tests, scaling tests. |  |
+| [S23](lectures/Lecture%2021%20-%20Testing%20and%20code%20review.ipynb) | Wed Nov 18 | **Testing I.** What to test when you didn't write the code: pytest, property-based testing, regression/golden tests, scaling tests. |  |
 | S24 | Fri Nov 20 | **Testing II & code review.** Schema and statistical validation of data outputs; CI on GitHub; reviewing an agent-authored pull request. |  |
 
 ### Module E — Shaping the build and project presentations (S25–S29, Weeks 9–10)
