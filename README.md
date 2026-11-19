@@ -25,7 +25,7 @@ By the end of the course, students can:
 
 ## Course structure
 
-28 class meetings, Monday/Wednesday/Friday from Fri Sep 25 (Week 0) to Fri Dec 4 (Week 10): 24 teaching sessions including a midterm, one project clinic, and three sessions of project presentations in the last week of classes. No class on Fri Oct 16, Veterans Day (Wed Nov 11) or Thanksgiving (Thu–Fri Nov 26–27). The final exam is in finals week, in the registrar-assigned slot.
+28 class meetings, Monday/Wednesday/Friday from Fri Sep 25 (Week 0) to Fri Dec 4 (Week 10): 24 teaching sessions including a midterm, one project clinic, and three sessions of project presentations in the last week of classes. No class on Fri Oct 16, Veterans Day (Wed Nov 11) or Thanksgiving (Thu–Fri Nov 26–27). There is no final exam; an in-class quiz on Mon Nov 23 takes its place.
 
 ### Module A — Foundations for reading and verifying code (S1–S7, Weeks 0–2)
 
@@ -87,21 +87,34 @@ By the end of the course, students can:
 | # | Date | Topic | Notes |
 |---|---|---|---|
 | S24 | Fri Nov 20 | **Shaping the build.** The software development lifecycle, from waterfall to agile, and how every test traces back to the spec; user stories and acceptance criteria; turning a vague request into buildable scope; prototyping and the speed–cost–risk–human-effort trade-offs; maintenance, open-source projects, and when to let a project die. |  |
-| S25 | Mon Nov 23 | **Course review and quiz.** A look back across Modules C–E, then a short (about 20-minute) closed-AI quiz. |  |
+| S25 | Mon Nov 23 | **Course review and quiz.** A look back across Modules C–E, then a short (about 20-minute) closed-AI quiz on the material since the midterm. It replaces the final exam. |  |
 | S26 | Wed Nov 25 | **Project clinic.** No new content; teams work with instructor and TA on M2 feedback. |  |
 | — | Thu–Fri Nov 26–27 | *Thanksgiving — no class.* |  |
 | S27 | Mon Nov 30 | **Project presentations** (≈6 teams). |  |
 | S28 | Wed Dec 2 | **Project presentations** (≈6 teams). |  |
 | S29 | Fri Dec 4 | **Project presentations** (≈6 teams). Last day of instruction. |  |
-| Finals | Dec 5–12 | **Final exam** (closed-AI, cumulative, weighted toward Modules C–E), in the registrar-assigned slot. |  |
+
+## Assessment
+
+| Component | Weight |
+|---|---|
+| Participation (in-class ClassBuzz polls) | 10% |
+| Midterm exam (Mon Oct 26, in class, closed-AI) | 20% |
+| Quiz (Mon Nov 23, in class, closed-AI, material since the midterm) | 10% |
+| Team project: M1 proposal | 5% |
+| Team project: M2 design | 10% |
+| Team project: M3 final repository and report | 30% |
+| Team project: presentation and interview | 15% |
+
+Individual project grades are adjusted by peer evaluation. There is no final exam, and no weekly quizzes.
 
 ## AI policy
 
-Use of AI assistants and coding agents is permitted in the project and quizzes, and must be disclosed and logged in the project. You are accountable for everything you submit: "the agent wrote it" is not a defense — validating it was the job. Exams are closed-AI and certify individual understanding.
+Use of AI assistants and coding agents is permitted in the project, and must be disclosed and logged. You are accountable for everything you submit: "the agent wrote it" is not a defense — validating it was the job. The midterm and quiz are closed-AI and certify individual understanding.
 
 ## Logistics
 
-- Websites: Canvas (syllabus of record, quizzes), GitHub (materials), Gradescope (exams, project), ClassBuzz (participation), DataHub (Python environment)
+- Websites: Canvas (syllabus of record), GitHub (materials), Gradescope (exams, project), ClassBuzz (participation), DataHub (Python environment)
 - Office hours: TBD
 - Academic integrity: UCSD policy applies; undisclosed AI use in the project, or any AI use in exams, is an integrity violation.
 
