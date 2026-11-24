@@ -88,7 +88,7 @@ By the end of the course, students can:
 |---|---|---|---|
 | [S24](lectures/Lecture%2022%20-%20Shaping%20the%20build.ipynb) | Fri Nov 20 | **Shaping the build.** The software development lifecycle, from waterfall to agile, and how every test traces back to the spec; user stories and acceptance criteria; turning a vague request into buildable scope; prototyping and the speed–cost–risk–human-effort trade-offs; maintenance, open-source projects, and when to let a project die. |  |
 | S25 | Mon Nov 23 | **Course review and quiz.** A look back across Modules C–E, then a short (about 20-minute) closed-AI quiz on the material since the midterm. It replaces the final exam. |  |
-| S26 | Wed Nov 25 | **Project clinic.** No new content; teams work with instructor and TA on M2 feedback. |  |
+| S26 | Wed Nov 25 | **Project clinic.** No new content; teams work with instructor and TA on M2 feedback. | Remote (Zoom link on Canvas) |
 | — | Thu–Fri Nov 26–27 | *Thanksgiving — no class.* |  |
 | S27 | Mon Nov 30 | **Project presentations** (≈6 teams). |  |
 | S28 | Wed Dec 2 | **Project presentations** (≈6 teams). |  |
