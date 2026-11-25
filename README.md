@@ -104,9 +104,9 @@ By the end of the course, students can:
 | Team project: M1 proposal | 5% |
 | Team project: M2 design | 10% |
 | Team project: M3 final repository and report | 30% |
-| Team project: presentation and interview | 15% |
+| Team project: presentation (team) and interview (individual) | 15% |
 
-Individual project grades are adjusted by peer evaluation. There is no final exam, and no weekly quizzes.
+Individual project grades are adjusted by peer evaluation. There is no final exam, and no weekly quizzes. The rubrics for M3, the presentation, the interview and peer evaluation are in [`project/rubrics.md`](project/rubrics.md).
 
 ## AI policy
 
